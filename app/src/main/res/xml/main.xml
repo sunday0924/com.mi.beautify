@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="立即升仙" />
+    <SwitchPreference android:title="一键美化" android:key="c" android:defaultValue="false" android:summaryOn="当前：开启" android:summaryOff="当前：关闭" />
+    <PreferenceCategory android:title="查看版本" />
+    <PreferenceScreen android:title="系统更新" android:key="" android:summary="检查MIUI版本">
+        <intent android:targetPackage="com.android.updater" android:action="android.intent.action.MAIN" android:targetClass="com.android.updater.MainActivity" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="\n        👻1.隐藏状态栏卡一\n        👻2.隐藏通知栏卡一\n        👻3.隐藏数据箭头        \n        👻4.调整左外边距\n        👻5.调整4G符号大小\n        👻6.调整4G符号左右边距\n        👻7.增大状态栏时间大小\n        " />
+    <PreferenceCategory android:title="此软件需配合magisk-Mi8高仿IOS12状态栏·完美分栏(布丁).zip使用" />
+    <PreferenceCategory android:title="工具内置美化布局，只在小米8开发版:8.10.24以上版本测试通过，不保证其他机型通用，出现任何问题与作者无关！" />
+    <PreferenceCategory android:title="酷ID：怪叔叔_Hi" />
+</PreferenceScreen>
